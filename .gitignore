@@ -1,5 +1,7 @@
 .DS_Store
 target
+# Local OpenSSL build (scripts/local-openssl-env.sh)
+.deps/
 notes.md
 notes-*.md
 notes
@@ -65,6 +67,9 @@ standalone.log
 standalone/coverage_reports/*
 
 out.txt
+
+# Local OpenSSL build (source + install prefix)
+.deps/
 
 #Local AI files
 .github/copilot-*
